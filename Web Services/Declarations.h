@@ -12,6 +12,7 @@
 #import "ObjectResponse.h"
 #import "Coord.h"
 #import "Parser.h"
+#import "MainObject.h"
 
 //Debug
 #define nDebugEnable        1

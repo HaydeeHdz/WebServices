@@ -33,6 +33,7 @@
 		6E55E9941D5C210200E57CED /* InCodeMappingProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E55E97C1D5C210200E57CED /* InCodeMappingProvider.m */; };
 		6E55E9951D5C210200E57CED /* ObjectMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E55E97F1D5C210200E57CED /* ObjectMapper.m */; };
 		6E55E9961D5C210200E57CED /* ObjectMappingInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E55E9811D5C210200E57CED /* ObjectMappingInfo.m */; };
+		6E55E9991D5C3A7900E57CED /* MainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E55E9981D5C3A7900E57CED /* MainObject.m */; };
 		6E60FEF21D38A409007C28B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E60FEF11D38A409007C28B2 /* main.m */; };
 		6E60FEF51D38A409007C28B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E60FEF41D38A409007C28B2 /* AppDelegate.m */; };
 		6E60FEF81D38A409007C28B2 /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E60FEF71D38A409007C28B2 /* Start.m */; };
@@ -100,6 +101,8 @@
 		6E55E9801D5C210200E57CED /* ObjectMappingInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectMappingInfo.h; sourceTree = "<group>"; };
 		6E55E9811D5C210200E57CED /* ObjectMappingInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectMappingInfo.m; sourceTree = "<group>"; };
 		6E55E9821D5C210200E57CED /* OCMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMapper.h; sourceTree = "<group>"; };
+		6E55E9971D5C3A7900E57CED /* MainObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainObject.h; sourceTree = "<group>"; };
+		6E55E9981D5C3A7900E57CED /* MainObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainObject.m; sourceTree = "<group>"; };
 		6E60FEED1D38A408007C28B2 /* Web Services.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Web Services.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E60FEF11D38A409007C28B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6E60FEF31D38A409007C28B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -166,6 +169,8 @@
 				6E55E94A1D5C0FA000E57CED /* ObjectResponse.m */,
 				6E55E94C1D5C103400E57CED /* Coord.h */,
 				6E55E94D1D5C103400E57CED /* Coord.m */,
+				6E55E9971D5C3A7900E57CED /* MainObject.h */,
+				6E55E9981D5C3A7900E57CED /* MainObject.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -399,6 +404,7 @@
 				6E55E9951D5C210200E57CED /* ObjectMapper.m in Sources */,
 				6E55E98C1D5C210200E57CED /* SBJsonTokeniser.m in Sources */,
 				6E55E9931D5C210200E57CED /* CommonLoggingProvider.m in Sources */,
+				6E55E9991D5C3A7900E57CED /* MainObject.m in Sources */,
 				6E55E98E1D5C210200E57CED /* SBJsonWriter.m in Sources */,
 				6E60FEF21D38A409007C28B2 /* main.m in Sources */,
 				6E55E94E1D5C103400E57CED /* Coord.m in Sources */,

@@ -8,8 +8,10 @@
 
 #import <Foundation/Foundation.h>
 #import "Coord.h"
+#import "MainObject.h"
 
 @interface ObjectResponse : NSObject
+@property (nonatomic, strong) MainObject *main;
 @property (nonatomic,strong) Coord *coord;
 @property (nonatomic,strong) NSString *name;
 @end
